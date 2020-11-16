@@ -22,3 +22,6 @@ s3 = set(range(2,10,2))
 
 print('s1:', s1, '\ns2:', s2, '\ns3:', s3)
 
+#dicionário
+dic = {'nome':'Mateus', 'sobrenome':'Mello', 'idade':38}
+print(dic.items())

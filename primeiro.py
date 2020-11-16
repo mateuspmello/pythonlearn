@@ -6,7 +6,8 @@ for num in [12,13,14]:
     else:
         print('o numero não é', num)
 
-temp = 20
+#temp = 20
+temp = int(input('Entre com a temperatura:'))
 
 if temp < 0:
     print('Congelando')
