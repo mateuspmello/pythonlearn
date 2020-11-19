@@ -1,5 +1,6 @@
 import sys
 import csv
+import time
 
 temp = open('temp.txt','w')
 
@@ -33,3 +34,5 @@ with open('cs.csv','r') as arquivo_csv:
     for col in leitor:
         sys.stdout.write('%s\n' % str(col))
 
+
+print(time.localtime())
